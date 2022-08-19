@@ -25,3 +25,4 @@ function source:complete(request, callback)
     callback({ items = items, isIncomplete = true })
 end
 
+return source
